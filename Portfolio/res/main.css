@@ -1,0 +1,87 @@
+body{
+    background-color: rgba(221,211,203,1);
+}
+
+    .main_panel{
+        font-color: rgba(10,10,10,1);
+        font-size: 100%;
+        font-family: "Century Gothic", "Sans-serif", Sans Serif;
+
+        height: 100%;
+    }
+
+        .nav{
+            height: 10%;
+            width: 92.5%;
+            padding:2.5%;
+            align-items: center;
+
+            display: flex;
+            position: absolute;
+            top:10;
+            left: 20;
+            
+            border-radius: 1em;
+            background-color: rgba(100,20,140,.5);
+        }
+
+            #opt{
+                height: 90%;
+                width: 5%;
+                
+                background-color: rgba(20,20,40,.5);
+                border-radius: 5em;
+                
+                position: relative;
+                top:0;  
+            }
+
+            #nav{
+                display: none;
+                height: 100%;
+                width: 92.5%;
+                background-color: rgba(0,0,0,0)
+            }
+
+                #nav a{
+                    padding:2% 5%;
+
+                    text-align:center;
+                    text-decoration: none;
+                    font-size: 120%;
+                    color: black;
+  
+                    margin-right:2.5%;
+                }
+
+                #dm{
+                    margin-left: 55%;
+                }
+                #dm img{
+                    height: 100%;
+                }
+
+        .panel_board{
+            padding: 15% 2.5%;
+        }
+
+            [class*="panel-"]{
+                width: 27.5%;
+                height: 32%;
+                background-color: rgba(150,150,150,1);
+                border-radius: 2em;
+
+                float:left;
+                padding: 2px;
+                margin: 0% 2.75% 2.75%;
+            }
+            
+                [class*="panel-"]:hover{
+                    background-color:rgba(250,250,250,.7);
+                    transition:linear 500ms;
+                }
+
+                .panel_text{
+                    font-size: 150%;
+                    margin:25% 50%;
+                }
