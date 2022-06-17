@@ -1,0 +1,48 @@
+/*Subpages*/
+    .case{
+        padding: 0%;
+        width:auto;
+    }
+
+    .case .panel_img{
+        height:50%;
+        width:100%;
+
+        object-position: top;   
+    }
+
+    .case #rec, .case #title, .case #abt, .case #feat{
+        position: relative;
+        margin:2% 0%;
+    }
+
+    .case #title, .case #abt{
+        height:20%;
+        margin:2.5% auto;
+    }
+
+    .case #tog{
+        height:10%;
+        margin: 2.5% auto;
+        display: flex;
+        flex:1;
+
+    }
+        .case #tog a{
+            margin:0 2.5%;
+        }
+        .case #tog img{
+            height:50%;
+            padding: 0% 25% 0 12.5%;
+        }
+        .case #tog p{
+            font-size: 125%;
+            padding: .5%;
+        }
+        .case #title .panel_text{
+            font-size: 225%;
+        }
+            .case span{
+                font-size: 125%;
+                text-align: justify;
+            }

@@ -1,0 +1,28 @@
+/*Projects*/
+.panel_board{
+    width: auto;
+    display: flex;
+    margin: 2.5%;
+    flex-wrap: wrap;
+}
+
+    [class*="panel-"]{
+        width: 45%;
+        background-color: rgba(98,196,208,1);
+        border-radius: 1em;
+
+        margin: 1.25% 2.5%;
+        position:relative;
+    }
+    
+        [class*="panel-"] img:hover{
+            opacity:.125;                    
+            transition:linear 250ms;
+        }
+
+        .panel_board .panel_img{
+            border-radius: 1em;
+            max-height: 100%;
+            max-width: 100%;
+            object-position: center;
+        }
