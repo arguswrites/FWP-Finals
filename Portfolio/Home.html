@@ -2,9 +2,10 @@
 
     <head>
         <title> Baylon Portfolio</title>
-        <script src="res/jquery-3.6.0.js"></script>
-        <script src="res/jq_main.js"></script>
+        <script src="res/main.js"></script>
+        <link rel="icon" href="https://static.wikia.nocookie.net/valorant/images/7/7c/Cyber_Cage.png/revision/latest?cb=20200405222332"/>
         <link rel="stylesheet" href="res/main.css"/>
+        <link rel="stylesheet" href="res/main_spec.css"/>
     </head>
 
     <body>
@@ -16,42 +17,89 @@
                 <div id="opt" onclick="nav();">
                     <img src="" alt="logo" onerror="this.style.display='none'">
                 </div>
-
                 <div id="nav">
-                    <a href="">Projects</a>
-                    <a href="">Background</a>
-                    <div id="dm" onclick="dmode()">
-                        <img src="res/img/dmode.png" id="dmode">
+                    <a id="home" href="Home.html">Home</a>
+                    <a id="proj" href="Projects.html">Projects</a>
+                    <a id="abt-bg" href="About.html">Background</a>                   
+                </div>
+
+            </div>
+            <div class="panels">
+                <div class="panel_feature">
+                    <div id="name">
+                        <div class="panel_text">
+                            <p>Francis Mark Gregory Baylon</p>
+                        </div>
+                    </div>
+                    <a href="Recent.html">
+                        <div id="rec">
+                            <img class="panel_img" src="res/img/recent.png" alt="Recent Project">
+                            <div class="panel_text">
+                                <p>RECENT PROJECT</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="Feature.html">
+                        <div id="feat">
+                            <img class="panel_img" src="res/img/feat.png" alt="Feature Project">
+                            <div class="panel_text">
+                                <p>FEATURED PROJECT</p>
+                            </div>
+                        </div>
+                    </a>
+                    <div id="me">
+                        <img class="panel_img" src="res/img/me.jpg" alt="Abt me">
+                        <div class="panel_text">
+                            <p>About Me</p>
+                            <br/>
+                            <span id="panel_abt">
+                                Francis is a graduate of STI College Las Piñas. 
+                                <br/>Graduated with the intent to help his hobbies
+                                come to fruition.
+                            </span>
+                        </div>
                     </div>
                 </div>
-
-            </div>
-            
-            <div class="panel_board">
-                
-                <div class="panel-1">
-                    <div class="panel_text">1</div>
-                </div>
-                <div class="panel-2">
-                    <div class="panel_text">2</div>
-                </div>
-                <div class="panel-3">
-                    <div class="panel_text">3</div>
-                </div>
-
-                <div class="panel-4">
-                    <div class="panel_text">4</div>
-                </div>
-                <div class="panel-5">
-                    <div class="panel_text">5</div>
-                </div>
-                <div class="panel-6">
-                    <div class="panel_text">6</div>
-                </div>
-
-            </div>
-        </div>
-
+           </div>  
+           <div class="footer">
+               <div id='footer-left'>
+                   <h3>Contacts</h3>
+                   <ul>
+                       <li>
+                           <p>LinkedIn:</p>
+                           <ul>
+                               <li>
+                               <a href="https://www.linkedin.com/in/francis-mark-gregory-baylon-6b6221234">Francis Mark Baylon</a>
+                               </li>
+                           </ul>
+                       </li>
+                       <li>
+                           <p>GMail:</p>
+                           <ul>
+                               <li id="inner_li">
+                                  baylonfrancis4work@gmail.com
+                               </li>
+                           </ul>
+                       </li>
+                       <li>
+                           <p>GitHub:</p>
+                           <ul>
+                               <li>
+                                   <a href="https://github.com/arguswrites/">ArgusWrites</a>
+                               </li>
+                           </ul>
+                       </li>
+                   </ul>
+               </div>
+               <div id='footer-right'>
+                   <h3>About</h3>
+                   <span id="abt">
+                       This site is an online portfolio compiled by <b>Francis Mark.</b><br/>
+                       These hold collection of works and involvements from early in his college days up to the recents.
+       
+                   </span>            
+               </div>
+           </div>
     </body>
 
 </html>

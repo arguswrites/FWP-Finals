@@ -1,0 +1,40 @@
+/*specified*/
+        .panel_feature{
+            padding: 0%;
+            width:auto;
+        }
+
+            #rec, #feat, #name, #me{
+                position: relative;
+                margin:.75% 0%;
+            }
+                #name .panel_text{  
+                    font-size:275%;
+                    font-weight: bold;
+                }
+                #rec .panel_text, #feat .panel_text{
+                    font-size: 225%;
+                }
+                #me .panel_text{
+                    font-size: 225%;
+                    text-align: center;
+                }
+                    #me span{
+                        font-size: 75%;
+                        text-align: justify;
+                    }
+
+            #name{
+                height:20%;
+                margin: auto;
+            }
+
+            #me{
+                width:auto;
+            }
+
+                #me img{
+                    height:45%; 
+                    opacity:.5;
+                    object-fit:cover;   
+                }

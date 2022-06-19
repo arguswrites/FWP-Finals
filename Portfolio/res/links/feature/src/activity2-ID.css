@@ -1,0 +1,59 @@
+#nav-header{
+    background-color:rgba(255, 77, 0, 0.5);
+    height:100px;
+    width:auto;
+    padding: 5px 10px;
+}
+    #header-name{
+        float: left;
+        font-family:"Comic Sans MS", "Comic Sans", cursive;
+        font-size: 24px;
+        text-align:center;
+        margin:12px 20px;
+    }
+
+    #list{
+        height:630px;
+    }
+
+    #abt{
+        height:450px;
+    }
+    
+    #header{
+        width: 100%;
+    }
+
+        #header p{
+            display: inline-block;
+            width: 20%;
+        }       
+                
+            #bar{                    
+                height: 2px;
+                background: black;
+                width: 80%;
+                margin: auto;
+                margin-bottom: 20px;
+            }
+            
+            #list-content img:hover{
+                opacity: 0.25;
+                transition: .5s;
+            }
+
+            #abt-cnt{ 
+                width: 100%;
+                display: block;
+                text-align: justify;
+                text-indent: 5%;
+            }
+
+            #contact{
+                margin-top:2.5%;
+            }
+            
+            #cont-2{
+                position: relative;
+                padding: 50px 0px;
+            }

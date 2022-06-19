@@ -1,0 +1,50 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>
+            Registration Activity
+        </title>
+        <link rel="stylesheet" href="src/Register.css">
+        <script src="src/Register.js"></script>
+    </head>
+    <body>
+        <div class="main-container" id="main">
+            <div class="fields">
+                <div class="fields input-1">
+                    <p>Name:</p>
+                    <input type="text" placeholder="Last Name" id="ln">
+                    <input type="text" placeholder="First Name" id="fn">
+                    <input type="text" placeholder="M I" id="mn">
+                </div>
+
+                <div class="fields input-2">
+                    <div id="left">
+                        <p>Age:</p>
+                        <input type="number" placeholder="00" id="age">
+                    </div>
+                    <div id="right">
+                        <p>Gender:</p>
+                        <select name="gender" id="gen">
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                </div>  
+                <div class="fields input-3">
+                    <p>E-mail Address:</p>
+                    <input type="email" placeholder="E-mail Address" id="email">
+                </div>
+                <button type="submit" onclick="Display();" id="btn">Submit</button>
+            </div>
+        </div>
+        <div id="output">
+            <p>Name:</p>
+            <p id="name"></p>
+            <p>Age:</p>
+            <p id="age"></p>
+            <p>Gender:</p>
+            <p id="gender"></p>
+        </div>
+    </body>
+</html>
