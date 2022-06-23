@@ -1,0 +1,61 @@
+body{
+    background-color:rgba(255,165,0,.75);
+    font-family: "Century Gothic", "Sans-serif", Sans Serif;
+}
+        a{
+            text-decoration:none;
+            color:white;
+            cursor: pointer;
+        }
+            .anc{
+                float:right;
+                margin:35px 20px;
+            }
+                .anc a{
+                    padding: 2px 5px auto 5px;
+                    margin: 5px;
+                }
+
+            .feature{
+                padding:10px;
+                margin-top:10px;
+                background-color:rgba(255,255,255,.5);
+                border-radius:10px;
+                height: 550px;
+
+                font-size:24px;
+                display: block;
+            }
+                .feature p{
+                    padding-left: 20px;
+                }
+
+                .content{
+                    padding: 20px 40px;
+                    margin: auto;
+                }
+                
+                .hover-txt{
+                    position: Absolute;
+                    margin-left: 0.475%;
+                    height:240px;
+                    width: 169px;
+                    padding: 65px 50px;
+                
+                }
+
+            .address-cont{
+                position: relative;
+                padding: 5px 10px;
+            }
+                .address-cont img{
+                    height:45px;
+                    position:absolute;
+                    left:0;
+                }
+                .address-cont span{
+                    padding-top:5px;
+                    position:absolute;
+                    left:50px;
+                }
+            
